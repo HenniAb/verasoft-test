@@ -1,0 +1,34 @@
+.orders-filters {
+  height: 81px;
+  background: $grey4;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  .orders-filters-container {
+    display: flex;
+    justify-content: center;
+
+    .orderType {
+      background: $grey3;
+      font-family: $font-1;
+      font-size: 12px;
+      padding: 12px 42px;
+      height: 45px;
+      border: 1px solid $white1;
+      text-transform: uppercase;
+      font-weight: 600;
+      &:hover {
+        background: $grey1;
+        cursor: pointer;
+        p {
+          color: $white1;
+          text-transform: uppercase;
+        }
+      }
+      &.active {
+        background: $grey1;
+        color: $white1;
+      }
+    }
+  }
+}
