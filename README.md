@@ -1,6 +1,6 @@
 # VeraSoft: Front End Developer Test Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project  bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
